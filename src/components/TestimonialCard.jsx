@@ -6,16 +6,26 @@ const TestimonialCard = ({test}) => {
   return (
    <>
    <div className="testimonial_card">
-    <div className="star">
+    <div className="star" style={{
+      fontSize:'25px'
+
+    }}>
 <AiFillStar />
 <AiFillStar />
 <AiFillStar />
 <AiFillStar />
 <AiFillStar />
     </div>
-    <h5>"{test.title}"</h5>
-    <p>{test.content}</p>
-    <p className='p'>{test.last}</p>
+    <h2>"{test.title}"</h2>
+    <p  style={{
+      fontSize:'15px'
+    }}>{test.content}</p>
+    <p
+    style={{
+      fontSize:'15px',
+      fontWeight:'bold'
+    }}
+    >{test.last}</p>
 
    </div>
    </>

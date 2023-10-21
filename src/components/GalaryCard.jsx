@@ -4,8 +4,8 @@ const GalaryCard = ({price,title,content}) => {
   return (
 <>
 <div className="galary_card">
-    <h5>${price}</h5>
-    <h3>{title}</h3>
+    <h2>${price}</h2>
+    <h1>{title}</h1>
     <p>{content}</p>
 </div>
 </>

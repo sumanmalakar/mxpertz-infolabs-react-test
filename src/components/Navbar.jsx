@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
     <div className='flex'>
         <div className="left">
-            <h3>Restaurant Landing Page</h3>
+            <h1>Restaurant Landing Page</h1>
         </div>
         <div className="right">
             <div className="link">Landing</div>

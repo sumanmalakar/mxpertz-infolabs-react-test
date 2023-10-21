@@ -42,12 +42,14 @@ const [testimonials, setTestimonials] = useState(content)
                 <div className="border-bottom"></div>
 
             </div>
-            <h3>Our News And Events </h3>
+            <h1>Our News And Events </h1>
 <div style={{
     maxWidth:'50%'
 }}>
 
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ullam ex modi repellat, rem officiis veniam, repellendus recusandae ipsam voluptatibus.</p>
+ <p style={{
+    fontSize:'20px'
+ }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ullam ex modi repellat, rem officiis veniam, repellendus recusandae ipsam voluptatibus.</p>
 </div>
    <div className="testimonials">
 

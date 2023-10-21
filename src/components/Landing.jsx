@@ -7,7 +7,7 @@ const Landing = () => {
         <div className='overlay' />
         <div class="text">
            <div  className='space'>
-            <h2>Only Quality Food</h2>
+            <h1>Only Quality Food</h1>
            </div>
            <div className='space p'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis omnis animi similique tempora, maxime veniam ea tempore excepturi maiores impedit cupiditate quisquam dicta?

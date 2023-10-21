@@ -11,13 +11,13 @@ const Info = () => {
          <div className="left">
 
           <div className='flex-l'>
-            <h4>Hours of Operation</h4>
+            <h1>Hours of Operation</h1>
           </div>
           <br />
           <br />
 
           <div style={{padding:'1px'}}>
-            <h6>MON - FRI</h6>
+            <h3>MON - FRI</h3>
             <p className='p'>10:00am - 1:00pm</p>
             <p className='p'>4:00am - 10:30pm</p>
           {/* <div className="border-bottom"></div> */}
@@ -34,7 +34,7 @@ const Info = () => {
           <div style={{
             marginTop:'10px'
           }}>
-            <h6>SAT</h6>
+            <h3>SAT</h3>
             <p className='p'>3:00pm - 10:30pm</p>
           </div>
           <div
@@ -45,7 +45,7 @@ const Info = () => {
           <div style={{
             marginTop:'10px'
           }}>
-            <h6>SUN</h6>
+            <h3>SUN</h3>
             <p className='p'>We are closed</p>
           </div>
 
@@ -66,7 +66,7 @@ const Info = () => {
   <div className="right">
     <div className='flex-l'>
 
-        <h4>Drop Us a Line</h4>
+        <h1>Drop Us a Line</h1>
         <p className='p'>Don't be shy. Let us know if you have any questions!</p>
         <button className='btn'>CONTACT US</button>
     </div>

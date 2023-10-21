@@ -18,7 +18,7 @@
 
 .link{
     padding: 2.5px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 100;
 
 }
@@ -59,14 +59,14 @@
 }
 
 .p{
-    font-size: 13px;
+    font-size: 20px;
     color: #c9c4c4;
 }
 
  .btn{
     padding: 5px;
     /* margin-left: 20px; */
-    font-size: 9px;
+    font-size: 20px;
     background-color:  rgb(219, 219, 120);
     color:white;
     border: none;
@@ -82,7 +82,7 @@
     cursor: pointer;
     padding: 5px;
 
-    font-size: 9px;
+    font-size: 20px;
 
 }
 .home-flex{
@@ -99,7 +99,7 @@
     max-width: 50%;
 }
  .size{
-    font-size: 10px;
+    font-size: 20px;
     color: #caadad;
 
 }
@@ -140,7 +140,7 @@
 }
 
 .only_the_best .size{
-    font-size: 10px;
+    font-size: 30px;
     color: #bda2a2;
 
 }
@@ -183,16 +183,16 @@
     align-items: center;
 }
 .img img{
-    width: 157px;
-    height: 148.5px;
+    width: 260px;
+    height: 246px;
 }
 
-.galary_card h5{
+.galary_card h2{
     color: rgb(190, 175, 86);
 }
 
 .galary_card p{
-    font-size: 9px;
+    font-size: 15px;
     color: #bda2a2;
 }
 
@@ -207,7 +207,7 @@
     padding: 20px;
 }
 .testimonials_con div > p{
-    font-size: 9px;
+    font-size: 30px;
     color: #bda2a2;
 }
 .testimonials_con .border-bottom {
@@ -224,6 +224,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50vh;
+    padding: 20px;
 }
 
 .testimonial_card{
@@ -254,6 +256,7 @@
     /* background-color: blue; */
     margin: 1px;
     padding: 10px;
+    /* height: 100vh; */
 }
 
 .DontMiss_card .content .p{
@@ -263,8 +266,8 @@
 }
 
 .DontMiss_card .img img{
-    width: 180px;
-    height: 148.5px;
+    width: 280px;
+    height: 200px;
 }
 
 .DontMiss_card .content{
@@ -277,7 +280,7 @@
 }
 
 .DontMiss_card .content .cat{
-    font-size: 6px;
+    font-size: 10px;
     color: rgb(190, 175, 86);
     /* font-weight: 800; */
 }
@@ -362,27 +365,28 @@
 }
 
 .form .custom-input {
-    font-size: 16px; 
+    font-size: 26px; 
     background-color: black;
     color: white;
 }
 .form .btn-w{
-    width: 12rem;
+    width: 20rem;
 }
 
 .custom-input::placeholder {
     /* display: flex; */
-    font-size: 10px;
+    font-size: 20px;
     color: white; 
 }
 
 .footer{
     background-color: black;
     color: white;
-    height: 8vh;
+    /* height: 8vh; */
     /* display: flex;
     justify-content: space-between; */
     width: 100%;
+    /* padding: 10px; */
 }
 
 .footer_con {
@@ -414,5 +418,5 @@
 }
 
 .footer_con .left p{
-    font-size: 10px;
+    font-size: 20px;
 }

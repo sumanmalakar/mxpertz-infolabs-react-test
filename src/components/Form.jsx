@@ -31,7 +31,7 @@ const Form = () => {
                     className="form" style={{
                         marginTop: '20px'
                     }} >
-                    <h4>Our Newsletter</h4>
+                    <h1>Our Newsletter</h1>
                     <p className='p'>Dialogue is an essential part of any script</p>
 
                     <input type="text"

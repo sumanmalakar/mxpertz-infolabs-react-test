@@ -12,9 +12,11 @@ const DontMissCard = ({test}) => {
     </div>
     <div className="content">
 
-    <h5>{test.title}</h5>
+    <h2>{test.title}</h2>
     <p className='cat'>CATEGORY</p>
-    <p>{test.content}</p>
+    <p style={{
+      fontSize:'15px'
+    }} >{test.content}</p>
    
     </div>
 
