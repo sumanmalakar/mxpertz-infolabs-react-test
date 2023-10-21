@@ -1,13 +1,418 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0.5rem; */
+/* background-color: blue; */
+}
+
+.link{
+    padding: 2.5px;
+    font-size: 10px;
+    font-weight: 100;
+
+}
+
+
+
+
+.container {
+    background-image: url('https://www.expatica.com/app/uploads/sites/5/2014/05/french-food.jpg'); /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65vh; /* Adjust the height as needed */
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the last value (0.3) for opacity */
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Text color */
+    /* font-size: 2px; Adjust the font size */
+}
+
+.space{
+    margin: 20px;
+}
+
+.p{
+    font-size: 13px;
+    color: #c9c4c4;
+}
+
+ .btn{
+    padding: 5px;
+    /* margin-left: 20px; */
+    font-size: 9px;
+    background-color:  rgb(219, 219, 120);
+    color:white;
+    border: none;
+    /* background: none; */
+}
+.btn-outline{
+    background: none; 
+    color: white; 
+    border: 1px solid white;
+    /* padding: 10px 20px; */
+    /* border-radius: 5px;  */
+    /* font-size: 16px;  */
+    cursor: pointer;
+    padding: 5px;
+
+    font-size: 9px;
+
+}
+.home-flex{
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem;
+    gap: 2rem;
+}
+.home-flex .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 50%;
+}
+ .size{
+    font-size: 10px;
+    color: #caadad;
+
+}
+
+
+.home-flex .left .border-bottom {
+    width: 10%;
+    height: 2px; /* You can adjust the height as needed */
+    background-color: yellow; /* You can change the color */
+}
+.only_the_best{
+    height: 70vh;
+    background-color: #f9e6e6;
+
+}
+
+.only_the_best .container-fluid{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 50px;
+
+    
+}
+
+.only_the_best .container-fluid .border-bottom {
+    width: 50%;
+    height: 2px; /* You can adjust the height as needed */
+    background-color: rgb(219, 219, 120); /* You can change the color */
+    /* text-align: center; */
+    margin: auto;
+
+}
+
+.only_the_best .size{
+    font-size: 10px;
+    color: #bda2a2;
+
+}
+
+.galary{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+.galary_con{
+    width: 90%;
+    margin: auto;
+    /* margin-top: 10px; */
+}
+
+
+.galary_card{
+    width: 20%;
+    height: 35vh;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 9px;
+}
+
+.galary-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 157px;
+    height: 148.5px;
+}
+
+.galary_card h5{
+    color: rgb(190, 175, 86);
+}
+
+.galary_card p{
+    font-size: 9px;
+    color: #bda2a2;
+}
+
+.testimonials_con{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+.testimonials_con div > p{
+    font-size: 9px;
+    color: #bda2a2;
+}
+.testimonials_con .border-bottom {
+    width: 50%;
+    height: 2px; /* You can adjust the height as needed */
+    background-color: rgb(219, 219, 120); /* You can change the color */
+    /* text-align: center; */
+    margin: auto;
+
+}
+
+.testimonials{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonial_card .star{
+    color: rgb(190, 175, 86);
+}
+
+.testimonial_card p{
+    font-size: 9px;
+    color: #bda2a2;
+}
+.testimonial_card .p{
+    font-size: 9px;
+    color: #a18585;
+    font-weight: 800;
+}
+
+
+.DontMiss_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* background-color: blue; */
+    margin: 1px;
+    padding: 10px;
+}
+
+.DontMiss_card .content .p{
+    font-size: 9px;
+    color: #a18585;
+    font-weight: 800;
+}
+
+.DontMiss_card .img img{
+    width: 180px;
+    height: 148.5px;
+}
+
+.DontMiss_card .content{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.DontMiss_card .content .cat{
+    font-size: 6px;
+    color: rgb(190, 175, 86);
+    /* font-weight: 800; */
+}
+
+.info_container {
+    background-image: url('https://www.expatica.com/app/uploads/sites/5/2014/05/french-food.jpg'); /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    position: relative;
+
+    /* padding: 20px; */
+}
+
+.info_overlay
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the last value (0.3) for opacity */
+}
+
+.info_container .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.info_container .text .left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393d44;
+    padding: 10px;
+    height: 90vh;
+    
+    
+}
+.info_container .text .right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393d44;
+    padding: 10px;
+    height: 90vh;
+    
+
+}
+
+.flex-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.info_container .text .left .border-bottom {
+    width: 100%;
+    height: 1px;
+    background-color: yellow; 
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form .custom-input {
+    font-size: 16px; 
+    background-color: black;
+    color: white;
+}
+.form .btn-w{
+    width: 12rem;
+}
+
+.custom-input::placeholder {
+    /* display: flex; */
+    font-size: 10px;
+    color: white; 
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+}
+
+.footer_con {
+    padding: 3px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10rem;
+  color: gray;
+
+
+}
+
+.footer_con .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
+    font-size: 10px;
+    /* background-color: blue; */
+}
+
+.footer_con .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.footer_con .left p{
+    font-size: 10px;
 }
